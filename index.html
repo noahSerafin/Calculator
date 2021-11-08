@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet"> 
+    <title>Calculator</title>
+</head>
+<body>
+    <header>
+        <input type="text" id=calculationField>
+        <button id=clear>c</button>
+    </header>
+    <div>
+        <button>(</button>
+        <button>)</button>
+        <button>%</button>
+        <button>ce</button>
+    </div>
+    <div class="inputs">
+        <span class="numbers">
+            <button onlclick = display(1)>1</button>
+            <button onlclick = display(2)>2</button>
+            <button onlclick = display(3)>3</button>
+            <button onlclick = display(4)>4</button>
+            <button onlclick = display(5)>5</button>
+            <button onlclick = display(6)>6</button>
+            <button onlclick = display(7)>7</button>
+            <button onlclick = display(8)>8</button>        
+            <button onlclick = display(9)>9</button>
+            <button onlclick = display(0)>0</button>
+            
+            <button onlclick = display(.)>.</button>        
+            <button onlclick = display(=)>=</button>        
+        </span>
+        <span class="operators">
+            <button>/</button>
+            <button>x</button>
+            <button>-</button>
+            <button>+</button>
+        </span>
+    </div>   
+</body>
+</html>
