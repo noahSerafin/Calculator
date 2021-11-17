@@ -1,19 +1,78 @@
-body{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 3fr 1fr;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+.background-container{
+    background-color: rgb(230, 230, 230); 
+    padding: 4px;
+    border-radius: 5px;
+    border:rgba(127, 127, 127, 1) solid 2px;
+}
+.extra-operators {
+    display: none;
+}
+
+body{   
+    margin: auto;
+    width: 300px;
+}
+.inputs{        
+    background-color: rgb(230, 230, 230);
     gap: 1px;
 }
-header{
-    margin: auto;
+.display{
+    width: 30%;
+    font-family: Poppins;
+    margin-right: 5px;
+    color: rgba(13, 13, 13, 1);
 }
+header{    
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 2px;
+    background-color: rgb(230, 230, 230);   
+}
+#clear{
+    margin: 2px;
+    color: rgb(230, 230, 230);
+    background-color: rgba(127, 127, 127, 1);
+    font-family: Poppins;
+    border-radius: 5px;
+}
+
 .numbers{
+    max-width: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 1px;
+    gap: 5px;
 }
+.number {
+    height: 30px;
+    color: rgb(230, 230, 230);
+    background-color: rgba(127, 127, 127, 1);
+    font-family: Poppins;
+    border-radius: 5px;
+}
+
 .operators{
+    margin-top: 5px;
+    max-width: 300px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;    
+}
+.operator {
+    height: 30px;
+    color: rgb(230, 230, 230);
+    background-color: rgba(127, 127, 127, 1);
+    font-family: Poppins;
+    border-radius: 5px;
+
+}
+
+#calculate{
+    color: rgb(230, 230, 230);
+    background-color: rgba(127, 127, 127, 1);
+    font-family: Poppins;
+    border-radius: 5px;
 }

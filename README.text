@@ -1,0 +1,3 @@
+The first span takes input from the number and decimal keys. 
+If an operator button has been pressed, the numbers enter the second span, and any new operators will replace the previous operator. 
+The equals button takes the first and second numbers, and uses a switch case on the operator to carry out the calculation.
