@@ -18,7 +18,7 @@ updateDisplay = (input) => {
     console.log("input type: " + typeof(input))
    
     if (opDisplay.innerHTML === ""){
-        if(display.innerHTML === 0){
+        if(display.innerHTML == 0){
             display.innerHTML = input;
         }   else {
             display.innerHTML += input;
